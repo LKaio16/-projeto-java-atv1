@@ -41,7 +41,6 @@ public class Application {
 		System.out.println("O NOME DO PRIMEIRO PROFESSOR É: " + Professor1.getNome() + ", E SEU NUMERO DE INSCRIÇAO É: " + Professor1.getNumInscricao());
 		System.out.println("O NOME DA MATERIA É: " + Materia1.getNome() + ", E SEU CODIGO É: " + Materia1.getCodigo());
 		
-		
 	
 	//Scan Nome Professor 2
 		
