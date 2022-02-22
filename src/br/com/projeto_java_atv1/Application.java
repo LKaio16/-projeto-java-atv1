@@ -26,20 +26,21 @@ public class Application {
 		                         //System.out.println(Professor1.getNome());
 	
 	//Scan Materia 1
-		Materia Materia1 = new Materia();
+		
+		
 		
 		System.out.println("---------------------");
 		System.out.println("DIGITE A MATERIA");
 		System.out.println("---------------------");
 		
 		String nomeMateria1 = scan.nextLine();
-		Materia1.setNome(nomeMateria1);
-		Materia1.setCodigo(n1.nextInt(5000));
+		Professor1.getMateria().setNome(nomeMateria1);
+		Professor1.getMateria().setCodigo(n1.nextInt(5000));
 		
 		     //System.out.println(Materia1.getNome());
 		
 		System.out.println("O NOME DO PRIMEIRO PROFESSOR É: " + Professor1.getNome() + ", E SEU NUMERO DE INSCRIÇAO É: " + Professor1.getNumInscricao());
-		System.out.println("O NOME DA MATERIA É: " + Materia1.getNome() + ", E SEU CODIGO É: " + Materia1.getCodigo());
+		System.out.println("O NOME DA MATERIA É: " + Professor1.getMateria().getNome() + ", E SEU CODIGO É: " + Professor1.getMateria().getCodigo());
 		
 	
 	//Scan Nome Professor 2
@@ -56,20 +57,18 @@ public class Application {
 		
 	
 	//Scan Materia 2
-		
-		Materia Materia2 = new Materia();
-		
+				
 		System.out.println("---------------------");
 		System.out.println("DIGITE A MATERIA");
 		System.out.println("---------------------");
 		
 		String nomeMateria2 = scan.nextLine();
-		Materia2.setNome(nomeMateria2);
-		Materia2.setCodigo(n1.nextInt(5000));
+		Professor2.getMateria().setNome(nomeMateria2);
+		Professor2.getMateria().setCodigo(n1.nextInt(5000));
 	
 	    
 		System.out.println("O NOME DO SEGUNDO PROFESSOR É: " + Professor2.getNome() + ", E SEU NUMERO DE INSCRIÇAO É: " + Professor2.getNumInscricao());
-		System.out.println("O NOME DA MATERIA É: " + Materia2.getNome() + ", E SEU CODIGO É: " + Materia2.getCodigo());
+		System.out.println("O NOME DA MATERIA É: " + Professor2.getMateria().getNome() + ", E SEU CODIGO É: " + Professor2.getMateria().getCodigo());
 	}
 }
 
